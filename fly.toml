@@ -1,0 +1,8 @@
+app = "cqat2026-bot"
+primary_region = "ams"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PYTHONUNBUFFERED = "1"
